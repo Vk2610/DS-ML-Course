@@ -1,0 +1,2 @@
+This file is opened in write and read mode.
+You can write and read from the same file.
