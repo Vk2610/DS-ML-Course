@@ -1,0 +1,81 @@
+OrderID,Date,Product,Category,Quantity,UnitPrice,TotalAmount,Region,Salesperson
+1001,2025-01-01,Laptop,Electronics,2,55000,110000,West,Rahul
+1002,2025-01-02,Smartphone,Electronics,4,22000,88000,North,Priya
+1003,2025-01-03,Office Chair,Furniture,3,8000,24000,South,Amit
+1004,2025-01-04,Desk,Furniture,2,15000,30000,East,Neha
+1005,2025-01-05,Headphones,Accessories,6,2500,15000,West,Rahul
+1006,2025-01-06,Monitor,Electronics,3,12000,36000,North,Priya
+1007,2025-01-07,Keyboard,Accessories,5,1800,9000,South,Amit
+1008,2025-01-08,Mouse,Accessories,10,900,9000,East,Neha
+1009,2025-01-09,Tablet,Electronics,2,30000,60000,West,Rahul
+1010,2025-01-10,Printer,Electronics,1,18000,18000,North,Priya
+1011,2025-01-11,Bookshelf,Furniture,2,10000,20000,South,Amit
+1012,2025-01-12,Webcam,Accessories,4,3500,14000,East,Neha
+1013,2025-01-13,Laptop,Electronics,1,60000,60000,West,Rahul
+1014,2025-01-14,Smartphone,Electronics,3,21000,63000,North,Priya
+1015,2025-01-15,Desk Lamp,Furniture,5,3000,15000,South,Amit
+1016,2025-01-16,Headphones,Accessories,8,2800,22400,East,Neha
+1017,2025-01-17,Monitor,Electronics,2,13000,26000,West,Rahul
+1018,2025-01-18,Keyboard,Accessories,7,1700,11900,North,Priya
+1019,2025-01-19,Mouse,Accessories,12,950,11400,South,Amit
+1020,2025-01-20,Tablet,Electronics,1,32000,32000,East,Neha
+1021,2025-01-21,Laptop,Electronics,3,54000,162000,West,Rahul
+1022,2025-01-22,Smartphone,Electronics,5,20000,100000,North,Priya
+1023,2025-01-23,Office Chair,Furniture,4,7800,31200,South,Amit
+1024,2025-01-24,Desk,Furniture,1,15500,15500,East,Neha
+1025,2025-01-25,Headphones,Accessories,9,2600,23400,West,Rahul
+1026,2025-01-26,Monitor,Electronics,4,12500,50000,North,Priya
+1027,2025-01-27,Keyboard,Accessories,6,1750,10500,South,Amit
+1028,2025-01-28,Mouse,Accessories,15,920,13800,East,Neha
+1029,2025-01-29,Tablet,Electronics,2,31000,62000,West,Rahul
+1030,2025-01-30,Printer,Electronics,2,17500,35000,North,Priya
+1031,2025-01-31,Bookshelf,Furniture,3,9800,29400,South,Amit
+1032,2025-02-01,Webcam,Accessories,5,3600,18000,East,Neha
+1033,2025-02-02,Laptop,Electronics,2,57000,114000,West,Rahul
+1034,2025-02-03,Smartphone,Electronics,4,23000,92000,North,Priya
+1035,2025-02-04,Desk Lamp,Furniture,6,2900,17400,South,Amit
+1036,2025-02-05,Headphones,Accessories,7,2750,19250,East,Neha
+1037,2025-02-06,Monitor,Electronics,3,13500,40500,West,Rahul
+1038,2025-02-07,Keyboard,Accessories,8,1650,13200,North,Priya
+1039,2025-02-08,Mouse,Accessories,14,980,13720,South,Amit
+1040,2025-02-09,Tablet,Electronics,2,33000,66000,East,Neha
+1041,2025-02-10,Laptop,Electronics,1,59000,59000,West,Rahul
+1042,2025-02-11,Smartphone,Electronics,6,21500,129000,North,Priya
+1043,2025-02-12,Office Chair,Furniture,5,8200,41000,South,Amit
+1044,2025-02-13,Desk,Furniture,2,16000,32000,East,Neha
+1045,2025-02-14,Headphones,Accessories,10,2400,24000,West,Rahul
+1046,2025-02-15,Monitor,Electronics,2,14000,28000,North,Priya
+1047,2025-02-16,Keyboard,Accessories,9,1850,16650,South,Amit
+1048,2025-02-17,Mouse,Accessories,11,1000,11000,East,Neha
+1049,2025-02-18,Tablet,Electronics,3,34000,102000,West,Rahul
+1050,2025-02-19,Printer,Electronics,1,18500,18500,North,Priya
+1051,2025-02-20,Bookshelf,Furniture,4,10200,40800,South,Amit
+1052,2025-02-21,Webcam,Accessories,6,3700,22200,East,Neha
+1053,2025-02-22,Laptop,Electronics,2,56500,113000,West,Rahul
+1054,2025-02-23,Smartphone,Electronics,3,22500,67500,North,Priya
+1055,2025-02-24,Desk Lamp,Furniture,7,3100,21700,South,Amit
+1056,2025-02-25,Headphones,Accessories,8,2900,23200,East,Neha
+1057,2025-02-26,Monitor,Electronics,4,13800,55200,West,Rahul
+1058,2025-02-27,Keyboard,Accessories,6,1900,11400,North,Priya
+1059,2025-02-28,Mouse,Accessories,13,970,12610,South,Amit
+1060,2025-03-01,Tablet,Electronics,2,35000,70000,East,Neha
+1061,2025-03-02,Laptop,Electronics,1,61000,61000,West,Rahul
+1062,2025-03-03,Smartphone,Electronics,5,23500,117500,North,Priya
+1063,2025-03-04,Office Chair,Furniture,4,8400,33600,South,Amit
+1064,2025-03-05,Desk,Furniture,3,15800,47400,East,Neha
+1065,2025-03-06,Headphones,Accessories,9,3000,27000,West,Rahul
+1066,2025-03-07,Monitor,Electronics,2,14500,29000,North,Priya
+1067,2025-03-08,Keyboard,Accessories,10,1950,19500,South,Amit
+1068,2025-03-09,Mouse,Accessories,16,1020,16320,East,Neha
+1069,2025-03-10,Tablet,Electronics,3,36000,108000,West,Rahul
+1070,2025-03-11,Printer,Electronics,2,19000,38000,North,Priya
+1071,2025-03-12,Bookshelf,Furniture,5,10500,52500,South,Amit
+1072,2025-03-13,Webcam,Accessories,7,3800,26600,East,Neha
+1073,2025-03-14,Laptop,Electronics,2,62000,124000,West,Rahul
+1074,2025-03-15,Smartphone,Electronics,4,24000,96000,North,Priya
+1075,2025-03-16,Desk Lamp,Furniture,8,3200,25600,South,Amit
+1076,2025-03-17,Headphones,Accessories,6,3100,18600,East,Neha
+1077,2025-03-18,Monitor,Electronics,3,15000,45000,West,Rahul
+1078,2025-03-19,Keyboard,Accessories,12,2000,24000,North,Priya
+1079,2025-03-20,Mouse,Accessories,18,1050,18900,South,Amit
+1080,2025-03-21,Tablet,Electronics,2,37000,74000,East,Neha
