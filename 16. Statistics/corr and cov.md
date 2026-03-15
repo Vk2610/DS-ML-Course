@@ -1,7 +1,5 @@
 # Correlation and Covariance
 
-# Correlation and Covariance
-
 ## Covariance
 
 ### Definition
