@@ -128,11 +128,13 @@ Even after testing positive, the probability of actually having the disease is *
 
 ## 🆚 Conditional Probability vs Bayes' Theorem
 
-| Feature  | Conditional Probability | Bayes' Theorem      |
-| -------- | ----------------------- | ------------------- | ----------------------- |
-| Purpose  | Direct probability      | Reverse probability |
-| Formula  | P(A                     | B)                  | Uses prior + likelihood |
-| Use Case | Basic problems          | Updating beliefs    |
+## 🆚 Conditional Probability vs Bayes' Theorem
+
+| Feature  | Conditional Probability | Bayes' Theorem          |
+| -------- | ----------------------- | ----------------------- |
+| Purpose  | Direct probability      | Reverse probability     |
+| Formula  | P(A \| B)               | Uses prior + likelihood |
+| Use Case | Basic problems          | Updating beliefs        |
 
 ---
 
