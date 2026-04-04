@@ -2,23 +2,21 @@
 
 ## 📌 Introduction
 
-**Bayes' Theorem** is a fundamental concept in probability theory that helps us update the probability of an event based on new evidence.
+**Bayes' Theorem** is a fundamental concept in probability that helps us update the probability of an event based on new evidence.
 
 👉 In simple terms:  
-It tells us how to revise existing predictions when new data is available.
+It tells us how to revise our belief when new information is available.
 
 ---
 
 ## 📐 Formula
 
-\[
-P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-\]
+P(A | B) = (P(B | A) \* P(A)) / P(B)
 
 Where:
 
-- **P(A|B)** → Posterior probability (probability of A given B)
-- **P(B|A)** → Likelihood (probability of B given A)
+- **P(A | B)** → Posterior probability (probability of A given B)
+- **P(B | A)** → Likelihood (probability of B given A)
 - **P(A)** → Prior probability (initial belief about A)
 - **P(B)** → Evidence (total probability of B)
 
@@ -26,9 +24,9 @@ Where:
 
 ## 🧠 Intuition
 
-Bayes' Theorem helps answer:
+Bayes' Theorem answers:
 
-> "Given that event B has occurred, what is the probability that A was the cause?"
+> "Given that event B has occurred, what is the probability that A caused it?"
 
 ---
 
@@ -36,9 +34,9 @@ Bayes' Theorem helps answer:
 
 ### 1. Prior Probability (P(A))
 
-- Initial belief before seeing evidence
+- Initial assumption before observing data
 
-### 2. Likelihood (P(B|A))
+### 2. Likelihood (P(B | A))
 
 - How likely the evidence is if A is true
 
@@ -46,9 +44,9 @@ Bayes' Theorem helps answer:
 
 - Total probability of observing the evidence
 
-### 4. Posterior Probability (P(A|B))
+### 4. Posterior Probability (P(A | B))
 
-- Updated belief after considering evidence
+- Updated probability after considering evidence
 
 ---
 
@@ -66,7 +64,7 @@ Bayes' Theorem helps answer:
 ### Problem:
 
 - 1% of people have a disease → P(D) = 0.01
-- Test is 99% accurate:
+- Test accuracy:
   - P(Positive | Disease) = 0.99
   - P(Positive | No Disease) = 0.01
 
@@ -82,39 +80,23 @@ If a person tests positive, what is the probability they actually have the disea
 
 ---
 
-### Step 2: Apply Bayes' Theorem
+### Step 2: Calculate Total Probability of Positive Test
 
-\[
-P(D|T) = \frac{P(T|D) \cdot P(D)}{P(T)}
-\]
+P(T) = (P(T | D) _ P(D)) + (P(T | not D) _ P(not D))
 
----
-
-### Step 3: Calculate P(T)
-
-\[
-P(T) = P(T|D) \cdot P(D) + P(T|\neg D) \cdot P(\neg D)
-\]
-
-\[
-P(T) = (0.99 \cdot 0.01) + (0.01 \cdot 0.99)
-\]
-
-\[
-P(T) = 0.0099 + 0.0099 = 0.0198
-\]
+P(T) = (0.99 _ 0.01) + (0.01 _ 0.99)  
+P(T) = 0.0099 + 0.0099  
+P(T) = 0.0198
 
 ---
 
-### Step 4: Final Calculation
+### Step 3: Apply Bayes' Theorem
 
-\[
-P(D|T) = \frac{0.99 \cdot 0.01}{0.0198}
-\]
+P(D | T) = (P(T | D) \* P(D)) / P(T)
 
-\[
-P(D|T) = \frac{0.0099}{0.0198} = 0.5
-\]
+P(D | T) = (0.99 \* 0.01) / 0.0198  
+P(D | T) = 0.0099 / 0.0198  
+P(D | T) = 0.5
 
 ---
 
@@ -122,23 +104,23 @@ P(D|T) = \frac{0.0099}{0.0198} = 0.5
 
 Even after testing positive, the probability of actually having the disease is **50%**.
 
-👉 This shows how rare events affect probabilities.
+👉 This happens because the disease is rare.
 
 ---
 
 ## ⚡ Key Insights
 
-- High accuracy does not guarantee high certainty
-- Prior probability plays a crucial role
-- Useful in decision-making under uncertainty
+- High test accuracy ≠ high certainty
+- Prior probability plays a major role
+- Important in decision-making under uncertainty
 
 ---
 
 ## 📍 Applications
 
 - Medical diagnosis
-- Spam filtering (Email classification)
-- Machine Learning (Naive Bayes algorithm)
+- Email spam filtering
+- Machine Learning (Naive Bayes)
 - Fraud detection
 - Risk analysis
 
@@ -148,9 +130,9 @@ Even after testing positive, the probability of actually having the disease is *
 
 | Feature  | Conditional Probability | Bayes' Theorem      |
 | -------- | ----------------------- | ------------------- | ----------------------- |
-| Purpose  | Basic probability       | Reverse probability |
+| Purpose  | Direct probability      | Reverse probability |
 | Formula  | P(A                     | B)                  | Uses prior + likelihood |
-| Use Case | Direct calculation      | Updating beliefs    |
+| Use Case | Basic problems          | Updating beliefs    |
 
 ---
 
@@ -161,14 +143,14 @@ Imagine:
 - You see smoke (evidence)
 - What is the probability of fire (cause)?
 
-Bayes' theorem helps answer this logically.
+Bayes' Theorem helps answer this logically.
 
 ---
 
 ## ✅ Summary
 
-- Bayes' Theorem updates probabilities using new evidence
+- Bayes' Theorem updates probability using new evidence
 - Combines prior knowledge with observed data
-- Widely used in statistics, AI, and real-world decision making
+- Widely used in statistics, AI, and real-world applications
 
 ---
