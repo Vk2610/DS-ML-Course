@@ -185,3 +185,104 @@ The dice is **fair** (no significant difference)
 - Helps in testing **relationships and distributions**
 
 ---
+
+# Chi-Square (χ²) Test — Solved Example
+
+## 📌 Problem (Test of Independence)
+
+A survey was conducted to check whether **gender** is related to **product preference**.
+
+### Observed Data (O)
+
+|              | Like Product | Dislike Product | Row Total |
+| ------------ | ------------ | --------------- | --------- |
+| Male         | 30           | 20              | 50        |
+| Female       | 20           | 30              | 50        |
+| Column Total | 50           | 50              | 100       |
+
+---
+
+## 🎯 Objective
+
+Test whether **gender and product preference are independent**.
+
+- **H₀ (Null Hypothesis):** Gender and preference are independent
+- **H₁ (Alternative Hypothesis):** They are dependent
+
+---
+
+## ⚙️ Step 1: Calculate Expected Frequencies (E)
+
+Formula:
+E = (Row Total × Column Total) / Grand Total
+
+### Expected Table
+
+|        | Like Product     | Dislike Product  |
+| ------ | ---------------- | ---------------- |
+| Male   | (50×50)/100 = 25 | (50×50)/100 = 25 |
+| Female | (50×50)/100 = 25 | (50×50)/100 = 25 |
+
+---
+
+## ⚙️ Step 2: Compute χ² Value
+
+Formula:
+χ² = Σ [ (O - E)² / E ]
+
+| Cell             | O   | E   | (O - E)² / E |
+| ---------------- | --- | --- | ------------ |
+| Male - Like      | 30  | 25  | (5²)/25 = 1  |
+| Male - Dislike   | 20  | 25  | (5²)/25 = 1  |
+| Female - Like    | 20  | 25  | (5²)/25 = 1  |
+| Female - Dislike | 30  | 25  | (5²)/25 = 1  |
+
+χ² = 1 + 1 + 1 + 1  
+χ² = 4
+
+---
+
+## ⚙️ Step 3: Degrees of Freedom
+
+df = (rows - 1)(columns - 1)  
+df = (2 - 1)(2 - 1) = 1
+
+---
+
+## ⚙️ Step 4: Decision Rule
+
+- Significance level α = 0.05
+- Critical value (χ²₀.₀₅,₁) ≈ 3.84
+
+---
+
+## ⚙️ Step 5: Conclusion
+
+Since:
+χ² = 4 > 3.84
+
+👉 **Reject H₀**
+
+---
+
+## ✅ Final Result
+
+There is a **significant relationship** between gender and product preference.
+
+---
+
+## 🧠 Interpretation
+
+- Males tend to like the product more
+- Females tend to dislike it more
+- The difference is **not due to chance**
+
+---
+
+## 📌 Key Takeaways
+
+- Chi-square test checks **association between categorical variables**
+- Compare calculated χ² with critical value
+- If χ² is larger → variables are **dependent**
+
+---# End of Chi-Square Test Example
