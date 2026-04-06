@@ -285,4 +285,4 @@ There is a **significant relationship** between gender and product preference.
 - Compare calculated χ² with critical value
 - If χ² is larger → variables are **dependent**
 
----# End of Chi-Square Test Example
+---
