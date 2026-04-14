@@ -248,13 +248,3 @@ Machine Learning enables systems to:
 Understanding different types of ML helps in selecting the right approach for real-world problems.
 
 ---
-
-# 💡 Bonus Project Idea
-
-Build a **Movie Recommendation System** using:
-
-- React (Frontend)
-- Node.js (Backend)
-- Python ML model
-
----
