@@ -1,4 +1,3 @@
-````md
 # Introduction to K-Nearest Neighbors (KNN)
 
 ## What is K-Nearest Neighbors (KNN)?
@@ -667,4 +666,3 @@ It teaches important Machine Learning concepts such as:
 - Feature scaling
 
 Although modern datasets often require more sophisticated algorithms, KNN remains an excellent foundation for understanding how Machine Learning models make predictions based on patterns in data.
-````
