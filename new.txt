@@ -8,3 +8,4 @@ git push -u origin main
 Naive Bayes theory
 
 new code commited 
+commit streak maintained
