@@ -6,3 +6,7 @@ git push -u origin main
 ```
 
 Naive Bayes theory
+
+new code commited 
+commit streak maintained
+3rd commit for day 
