@@ -5,4 +5,4 @@ git commit -m "first commit"
 git push -u origin main
 ```
 
-Naive Bayes theor
+git commit streak remains intact 
